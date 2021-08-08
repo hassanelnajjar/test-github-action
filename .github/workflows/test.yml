@@ -1,4 +1,4 @@
-name: Build
+name: Test the code on pull request
 on: [pull_request]
 
 jobs:
