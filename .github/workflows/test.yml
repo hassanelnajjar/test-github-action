@@ -1,0 +1,15 @@
+name: Test the code on pull request
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js v12.0
+        uses: actions/setup-node@v2
+        with:
+          node-version: 12.00
+          cache: "npm"
+      - run: npm install
+      - run: npm test
