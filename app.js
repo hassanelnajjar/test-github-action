@@ -10,4 +10,5 @@ app.get("/g10", (req, res) => {
   res.json({ status: 200, message: "Hello G10" });
 });
 
+console.log("app");
 module.exports = app;
