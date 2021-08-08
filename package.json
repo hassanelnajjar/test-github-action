@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/hassanelnajjar/test-github-actions/issues"
   },
-  "homepage": "https://github.com/hassanelnajjar/test-github-actions#readme"
+  "homepage": "https://github.com/hassanelnajjar/test-github-actions#readme",
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
 }
