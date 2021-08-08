@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/g10", (req, res) => {
-  res.json({ status: 200, message: "Hello G10" });
+  res.json({ status: 200, message: "Hello G11" });
 });
 
 module.exports = app;
