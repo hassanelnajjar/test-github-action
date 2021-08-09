@@ -19,7 +19,7 @@ it("Route /g10 should return status 200 and message : Hello G10", (done) => {
     .expect(200)
     .end((err, res) => {
       if (err) return done(err);
-      expect(res.body.message).toBe("Hello G12");
+      expect(res.body.message).toBe("Hello G10");
       return done();
     });
 });
