@@ -16,4 +16,4 @@ jobs:
           cache: "npm"
        env:
           SUPER_SECRET: ${{ secrets.HASSAN }}
-      - run: echo "$secrets.HASSAN"
+      - run: echo "$SUPER_SECRET"
