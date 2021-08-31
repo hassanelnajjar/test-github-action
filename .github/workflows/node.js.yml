@@ -12,6 +12,4 @@ jobs:
         with:
           node-version: 12.00
           cache: "npm"
-      - run: npm install
-      - run: npm test
       - run: echo {{secrets.HASSAN}}
