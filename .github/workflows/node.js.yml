@@ -14,4 +14,6 @@ jobs:
         with:
           node-version: 12.00
           cache: "npm"
+       env:
+          SUPER_SECRET: ${{ secrets.HASSAN }}
       - run: echo "$secrets.HASSAN"
