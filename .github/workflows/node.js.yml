@@ -14,4 +14,4 @@ jobs:
         with:
           node-version: 12.00
           cache: "npm"
-      - run: echo "{{secrets.HASSAN}}"
+      - run: echo "$secrets.HASSAN"
